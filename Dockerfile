@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
 # Install Ruby
-RUN apk update && apk upgrade && apk --update add -–no-cache \
+RUN apk update && apk upgrade && apk --update add --no-cache \
     git \
     bash \
     curl \
